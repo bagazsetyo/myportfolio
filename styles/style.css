@@ -1,0 +1,300 @@
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+	/*background-color: #e4e6eb;*/
+	font-family: 'Open Sans', sans-serif;
+	color: #071c4d;
+}
+
+.active
+{
+    font-weight: bold;
+}
+/*navbar*/
+.btn-navbar-right
+{
+    margin-top: -10px !important;
+    margin-bottom: -8px !important;
+    margin-right: -18px !important;
+    height: 73px;
+    border-radius: 0px;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #071c4d;
+}
+.navbar-light .navbar-nav .nav-link.active {
+    color: #071c4d;
+    font-weight: bold;
+}
+.btn-get-started
+{
+    background-color: #ff9e53;
+    color: #fff;
+}
+.btn-get-started:hover
+{
+    background-color: #FFAA69;
+    color: #fff;
+}
+h2
+{
+    font-weight: bold;
+}
+header
+{
+    /*margin-top: -73px;*/
+    padding: 220px 0px 165px;
+    background-image: url(../images/images/background.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    /*background-color: red;*/
+}
+
+
+/*about*/
+#section-about
+{
+    padding: 100px 0; 
+    display:  flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.section-about-left-col
+{
+    flex-basis: 50%;
+}
+.section-about-left-col img
+{
+    width: 100%;
+}
+.section-about-right-col
+{
+    flex-basis: 50%;
+    text-align: right;
+}
+.section-about-text
+{
+    max-width: 500px;
+    margin-right: 100px;
+    display: inline-block;
+}
+.section-about-text h2
+{
+    margin: 50px 0 10px;
+    font-size: 28px;
+    font-style: italic;
+}
+.section-about-text h3
+{
+    font-size: 28px;
+    font-style: italic;
+}
+.section-about-text p
+{
+    font-size: 18px; 
+}
+
+.section-about-text .p
+{
+    margin-top: -10px;
+}
+.section-about-text p .name
+{
+    font-weight: bold;
+}
+.features-row
+{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.feature-col
+{
+    flex-basis: 25%;
+    text-align: center;
+}
+.feature-col img
+{
+    width: 100px;
+}
+.feature-col h4
+{
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.feature-btn
+{
+    margin: 80px auto 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.feature-btn .line
+{
+    text-align: right;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/*contact*/
+#section-features
+{
+    margin-top: 50px;
+}
+.contact-row
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contact-right-col
+{
+    flex-basis: 50%;
+}
+.contact-right-col img
+{
+    width: 100%;
+}
+.contact-left-col
+{
+    flex-basis: 50%;
+}
+
+form
+{
+    max-width: 350px;
+    margin: 30px 0;
+}
+.input {
+    height: 40px;
+    padding:8px 15px;
+    border:1px solid #dbdbdb;
+}
+.button {
+    height: 40px;
+    position:relative;
+    padding:6px 15px;
+    left:-8px;
+    border:2px solid #f67c92;
+    background-color:#f67c92;
+    color:#fafafa;
+    border-bottom-right-radius: 15px;
+}
+.telegram:hover,
+.telegram
+{
+    color: #f67c92 !important;
+    text-decoration: none !important;
+}
+
+@media only screen and (max-width: 770px)
+{
+    header{
+        background-image: none;
+    }
+    .container
+    {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    .logo
+    {
+        margin-top: 27px;
+        width: 70px;
+    }
+    .header-text
+    {
+        margin-top: 100px;
+    }
+    h1
+    {
+        font-size: 25px;
+    }
+    #menuBtn
+    {
+        width: 40px;
+        right: 50px;
+    }
+    .common-btn
+    {
+        padding: 10px 16px;
+    }
+    .sosial-icon img
+    {
+        width: 14px;
+        margin: 15px auto ;
+    }
+    .section-about-left-col
+    {
+        flex-basis: 100%;
+    }
+    .section-about-right-col
+    {
+        flex-basis: 100%;
+    }
+    .section-about-text
+    {
+        margin: 50px 50px 0;
+        display: inline-block;
+    }
+    .section-about-text h2
+    {
+        font-size: 18px;
+    }
+    .feature-col
+    {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    .course-left-col
+    {
+        flex-basis: 100%;
+    }
+    .course-right-col
+    {
+        margin-top: 70px;
+        flex-basis: 100%;
+    }
+    .contact-right-col,
+    .contact-left-col
+    {
+        flex-basis: 100%;
+    }
+    .contact-right-col img
+    {
+        margin-top: 50px;
+    }
+    .footer-left-col,
+    .footer-right-col
+    {
+        flex-basis: 100%;
+    }
+    .footer-info
+    {
+        margin-bottom: 10px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+    }
+    #offer
+    {
+        display: flex;
+    }
+    .skill-right-col
+    {
+         flex-basis: 100%;
+    }
+    .skill-left-col
+    {
+         flex-basis: 100%;
+    }
+}
