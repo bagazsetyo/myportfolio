@@ -64,7 +64,8 @@
           hellow every one 
           <br>
           My name is Bagas Setyo Nugroho  <br>
-          and im a website programmer 
+          i'm a <b><u><a href="galleries.html">website programmer</a></u></b> <br>
+          and <b><u><a href="graphic.html">design graphics</a></u></b>  
           <br>
           previously, I apologize if the making of this website <br>
            has many shortcomings
@@ -196,7 +197,9 @@
             <div class="section-about-text">
             <h1>Gallery</h1>
             <p class="mt-4">
-              Hey there, i make website with laravel  and vue js, if you want see it lets clik this button
+              Hey there, i make website with laravel  and vue js. <br>
+              and i a design graphics with Adobe Ilustrator <br>
+              if you want see it lets clik this button <br>
               <a href="galleries.html" class="btn btn-get-started mt-3">Go to Gallery <i class="fa fa-arrow-right small"></i></a>
           </div>
           </div>
@@ -215,8 +218,13 @@
               <button class="button" type="button" onclick="copy_text()">
                 <i class="fa fa-copy"></i>
               </button><br>
+              <label>telegram</label><br>
+              <input type="text" class="input border-right-0" value="085156474345" id="tele" readonly />
+              <button class="button" type="button" onclick="copy_tele()">
+                <i class="fa fa-copy"></i>
+              </button><br>
               <label class="mt-3">Telegram</label><br>
-              <a href="https://t.me/bagazfrazetyo"  class="telegram">bagazfeazetyo</a>
+              <a href="https://t.me/unknown2296855"  class="telegram">bagazfeazetyo</a>
               <br>
           </div>
           <div class="contact-right-col">
@@ -312,6 +320,11 @@
     <script type="text/javascript">
     function copy_text() {
         document.getElementById("pilih").select();
+        document.execCommand("copy");
+        alert("text copied");
+    };
+    function copy_tele() {
+        document.getElementById("tele").select();
         document.execCommand("copy");
         alert("text copied");
     }
