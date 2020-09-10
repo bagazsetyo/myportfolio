@@ -488,3 +488,96 @@ img
 	background-color: #2a488e;
 	color: #fff;
 }
+.details
+{
+	margin-top: 60px;
+	position: absolute;
+}
+
+.skills
+{
+  width: 100%;
+  max-width: 600px;
+  padding: 0 20px;
+}
+.skill-name
+{
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+.skill-bar
+{
+  width: 90%;
+  height: 20px;
+  background: #FFD7E0;
+  border-radius: 8px;
+}
+.skill-per
+{
+  height: 20px;
+  background-color: #f67c92;
+  border-radius: 8px;
+  width: 0;
+  transition: 1s linear;
+  position: relative;
+}
+.skill-per:before
+{
+  content: attr(per);
+  position: absolute;
+  padding: 4px 6px;
+  background: black;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 4px;
+  top: -35px;
+  right: 0;
+  transform: translateX(50%);
+}
+.skill-per:after
+{
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #000;
+  top: -16px;
+  right: 0;
+  transform: translateX(50%) rotate(45deg);
+  border-radius: 2px;
+}
+.skill-row
+{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.skill-right-col
+{
+  padding-top: 100px;
+  margin: auto;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  flex-basis: 50%;
+  height: 100%;
+}
+.skill-right-col img
+{
+  /*max-width: 100px;*/
+  width: 140px;
+}
+.skill-left-col
+{
+  flex-basis: 50%;
+}
+.skill-text
+{
+  max-width: 400px;
+}
+.skill-right-col .laravel
+{
+  margin: 0 15px;
+}
